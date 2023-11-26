@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { useTheme } from "next-themes";
 
 const Footer = () => {
-  const { theme } = useTheme();
-  const textColor = theme === "dark" ? "text-neutral-100" : "text-neutral-900";
+  const { theme, resolvedTheme, setTheme } = useTheme();
+  const [textColor, setTextColor] = useState("");
+
+  useEffect(() => {
+    // Set initial theme when the component mounts
+    setTheme("dark");
+  }, [setTheme]);
+
+  useEffect(() => {
+    // Update text color when the theme changes
+    setTextColor(
+      resolvedTheme === "dark" ? "text-neutral-100" : "text-neutral-900"
+    );
+  }, [resolvedTheme]);
 
   return (
     <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
