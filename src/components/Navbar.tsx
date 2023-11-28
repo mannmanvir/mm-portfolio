@@ -69,7 +69,7 @@ export default function Navbar() {
               duration={500}
             >
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold cursor-pointer hover:-translate-y-1 hover:bg-gray-500 transition-transform">
+                <h2 className="text-2xl font-bold cursor-pointer hover:-translate-y-1 hover:text-gray-400 transition-transform">
                   Manvir Mann
                 </h2>
               </div>
