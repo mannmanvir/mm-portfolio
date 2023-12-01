@@ -77,11 +77,11 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/about-image.png"
+              src="/about-image.gif"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:-bottom-1 md:left-35 md:z-0"
+              className="hidden md:block md:relative md:bottom-2 md:left-35 md:z-0"
             />
           </div>
         </div>
