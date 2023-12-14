@@ -17,6 +17,11 @@ const skills = [
   { skill: "Jira", docs: "https://confluence.atlassian.com/jira" },
   { skill: "Prisma", docs: "https://www.prisma.io/" },
   { skill: "Express", docs: "https://expressjs.com/" },
+  { skill: "VScode", docs: "https://code.visualstudio.com/docs" },
+  {
+    skill: "Microsoft 365",
+    docs: "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
+  },
 ];
 
 const AboutSection = () => {
