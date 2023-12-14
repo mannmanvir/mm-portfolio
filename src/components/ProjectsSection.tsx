@@ -13,6 +13,14 @@ const projects = [
     github: "https://github.com/khanhtruong0808/tea-rex",
     link: "https://tea-rex.vercel.app",
   },
+  {
+    name: "Custom Game",
+    description:
+      "This is a Java-based project in which a custom game engine was provided with the goal of creating a sprite that can interact with the game environment.",
+    image: "/130-game.png",
+    github: "https://github.com/mannmanvir/Game",
+    link: "https://github.com/mannmanvir/Game",
+  },
 ];
 
 const ProjectsSection = () => {
