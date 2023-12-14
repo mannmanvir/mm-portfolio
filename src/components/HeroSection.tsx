@@ -41,8 +41,8 @@ const HeroSection = () => {
               Projects
             </Link>
             <a
-              href="/Manvir_Mann_Resume_20231130.pdf"
-              download="Manvir_Mann_Resume_20231130.pdf"
+              href="/Manvir_Mann_Resume_20231213.pdf"
+              download="Manvir_Mann_Resume_20231213.pdf"
               className="text-neutral-100 font-semibold px-6 py-3 bg-yellow-600 rounded shadow hover:bg-yellow-700 inline-flex items-center space-x-3 mt-4 md:mt-0"
             >
               Download CV
