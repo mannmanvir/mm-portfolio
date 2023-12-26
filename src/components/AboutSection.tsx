@@ -43,13 +43,18 @@ const AboutSection = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> computer science
-              student based in Sacramento, CA.
+              graduate based in Sacramento, CA.
             </p>
             <br />
             <p>
-              I am currently pursuing a BS in Computer Science at California
-              State University, Sacramento, and I anticipate graduating in Fall
-              2023.
+              I am currently{" "}
+              <span className="font-bold text-yellow-500">open to work</span>{" "}
+              and welcome any opportunities that would allow me to keep
+              following my passion and gaining knowledge in this industry in
+              order to leave my positive mark on the world and those around me
+              through my contributions. I am always looking forward to not only
+              learning new skills, but further diversifying those that I already
+              have.
             </p>
             <br />
             <p>
