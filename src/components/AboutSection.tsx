@@ -13,7 +13,7 @@ const skills = [
   { skill: "React", docs: "https://react.dev/" },
   { skill: "Next.js", docs: "https://nextjs.org" },
   { skill: "Tailwind CSS", docs: "https://tailwindcss.com/" },
-  { skill: "Github", docs: "https://docs.github.com/en" },
+  { skill: "GitHub", docs: "https://docs.github.com/en" },
   { skill: "Jira", docs: "https://confluence.atlassian.com/jira" },
   { skill: "Prisma", docs: "https://www.prisma.io/" },
   { skill: "Express", docs: "https://expressjs.com/" },
