@@ -9,6 +9,10 @@ const skills = [
     skill: "Java",
     docs: "https://docs.oracle.com/en/java/javase/17/",
   },
+  {
+    skill: "JavaScript",
+    docs: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
   { skill: "TypeScript", docs: "https://www.typescriptlang.org/docs/" },
   { skill: "React", docs: "https://react.dev/" },
   { skill: "Next.js", docs: "https://nextjs.org" },
@@ -17,9 +21,9 @@ const skills = [
   { skill: "Jira", docs: "https://confluence.atlassian.com/jira" },
   { skill: "Prisma", docs: "https://www.prisma.io/" },
   { skill: "Express", docs: "https://expressjs.com/" },
-  { skill: "VScode", docs: "https://code.visualstudio.com/docs" },
+  { skill: "Visual Studio Code", docs: "https://code.visualstudio.com/docs" },
   {
-    skill: "Microsoft 365",
+    skill: "Microsoft Office 365",
     docs: "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
   },
 ];
