@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 const Footer = () => {
   const { theme, resolvedTheme, setTheme } = useTheme();
   const [textColor, setTextColor] = useState("");
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     // Set initial theme when the component mounts
@@ -25,7 +26,8 @@ const Footer = () => {
         <div
           className={`flex flex-row items-center justify-center space-x-1 ${textColor}`}
         >
-          © 2023 Manvir Mann<a href="/" className="hover:underline"></a>
+          © {currentYear} Manvir Mann
+          <a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
