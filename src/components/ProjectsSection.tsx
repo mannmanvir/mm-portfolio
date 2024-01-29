@@ -16,10 +16,10 @@ const projects = [
   {
     name: "Feed",
     description:
-      "Feed is a messaging board where users can create accounts and post messages on the main page. It uses a Rest API for account management and posts, along with web sockets for real-time updates.",
+      "Feed is a messaging board where users can create accounts and post messages on the main page. It uses a Rest API for account management and posts, along with real-time login and password recovery features.",
     image: "/feed.png",
     github: "https://github.com/TrevorStreng/Feed",
-    link: "https://feed-mocha-six.vercel.app",
+    link: "https://feed-friends.vercel.app",
   },
   {
     name: "Custom Game",
