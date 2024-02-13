@@ -24,6 +24,11 @@ const skills = [
   { skill: "Express", docs: "https://expressjs.com/" },
   { skill: "Visual Studio Code", docs: "https://code.visualstudio.com/docs" },
   {
+    skill: "Oracle VM VirtualBox",
+    docs: "https://www.virtualbox.org/wiki/Documentation",
+  },
+  { skill: "Kali Linux", docs: "https://www.kali.org/docs/" },
+  {
     skill: "Microsoft Office 365",
     docs: "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
   },
