@@ -3,36 +3,27 @@ import Image from "next/image";
 import Link from "next/link";
 
 const skills = [
-  { skill: "HTML", docs: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-  { skill: "CSS", docs: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-  {
-    skill: "Java",
-    docs: "https://docs.oracle.com/en/java/javase/17/",
-  },
-  {
-    skill: "JavaScript",
-    docs: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  { skill: "TypeScript", docs: "https://www.typescriptlang.org/docs/" },
-  { skill: "React.js", docs: "https://react.dev/" },
-  { skill: "Next.js", docs: "https://nextjs.org" },
-  { skill: "Tailwind CSS", docs: "https://tailwindcss.com/" },
-  { skill: "Vercel", docs: "https://vercel.com/docs" },
-  { skill: "GitHub", docs: "https://docs.github.com/en" },
-  { skill: "Jira", docs: "https://confluence.atlassian.com/jira" },
-  { skill: "Prisma", docs: "https://www.prisma.io/" },
-  { skill: "Express", docs: "https://expressjs.com/" },
-  { skill: "Visual Studio Code", docs: "https://code.visualstudio.com/docs" },
-  {
-    skill: "Oracle VM VirtualBox",
-    docs: "https://www.virtualbox.org/wiki/Documentation",
-  },
-  { skill: "Kali Linux", docs: "https://www.kali.org/docs/" },
-  {
-    skill: "Microsoft Office 365",
-    docs: "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
-  },
-];
+  ["HTML", "https://developer.mozilla.org/en-US/docs/Web/HTML"],
+  ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
+  ["Java", "https://docs.oracle.com/en/java/javase/17/"],
+  ["JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
+  ["TypeScript", "https://www.typescriptlang.org/docs/"],
+  ["React.js", "https://react.dev/"],
+  ["Next.js", "https://nextjs.org"],
+  ["Tailwind CSS", "https://tailwindcss.com/"],
+  ["Vercel", "https://vercel.com/docs"],
+  ["GitHub", "https://docs.github.com/en"],
+  ["Jira", "https://confluence.atlassian.com/jira"],
+  ["Prisma", "https://www.prisma.io/"],
+  ["Express", "https://expressjs.com/"],
+  ["Visual Studio Code", "https://code.visualstudio.com/docs"],
+  ["Oracle VM VirtualBox", "https://www.virtualbox.org/wiki/Documentation"],
+  ["Kali Linux", "https://www.kali.org/docs/"],
+  [
+    "Microsoft Office 365",
+    "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
+  ],
+].map(([skill, docs]) => ({ skill, docs }));
 
 const AboutSection = () => {
   return (
