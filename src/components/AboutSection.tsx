@@ -91,11 +91,11 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start gap-2">
               {skills.map((item, idx) => {
                 return (
                   <Link key={idx} href={item.docs} target="_blank">
-                    <p className="bg-zinc-300 px-4 py-2 mr-2 mt-2 text-zinc-800 rounded font-semibold hover:bg-zinc-400 hover:text-gray-900 hover:scale-105 transition">
+                    <p className="bg-zinc-300 px-4 py-2 text-zinc-800 rounded font-semibold hover:bg-zinc-400 hover:text-gray-900 hover:scale-105 transition flex-grow-0">
                       {item.skill}
                     </p>
                   </Link>
