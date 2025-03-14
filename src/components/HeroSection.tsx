@@ -26,8 +26,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I am a{" "}
             <span className="font-semibold text-yellow-500">CS Graduate </span>
-            based in Sacramento, CA. Striving to develop software that not only
-            simplifies tasks, but also adds meaning to life.
+            based in Sacramento, CA. Passionate about implementing IT solutions
+            that enhance security, streamline operations, and empower
+            organizations.
           </p>
           <div className="flex flex-col items-center md:flex-row md:space-x-4 md:items-start">
             <Link
