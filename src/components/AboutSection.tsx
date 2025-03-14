@@ -13,16 +13,31 @@ const skills = [
   ["Tailwind CSS", "https://tailwindcss.com/"],
   ["Vercel", "https://vercel.com/docs"],
   ["GitHub", "https://docs.github.com/en"],
+  ["Git", "https://git-scm.com/doc"],
   ["Jira", "https://confluence.atlassian.com/jira"],
   ["Prisma", "https://www.prisma.io/"],
   ["Express", "https://expressjs.com/"],
   ["Visual Studio Code", "https://code.visualstudio.com/docs"],
+  ["Windows Server 2022", "https://learn.microsoft.com/en-us/windows-server/"],
+  [
+    "Active Directory",
+    "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services",
+  ],
   ["Oracle VM VirtualBox", "https://www.virtualbox.org/wiki/Documentation"],
+  ["Linux", "https://www.linux.org/"],
   ["Kali Linux", "https://www.kali.org/docs/"],
+  ["Wireshark", "https://www.wireshark.org/docs/"],
+  ["WinHex", "https://www.x-ways.net/winhex/"],
+  ["OSForensics", "https://www.osforensics.com/"],
+  ["Autopsy", "https://www.autopsy.com/documentation/"],
+  ["NIST", "https://www.nist.gov/"],
+  ["ITIL", "https://www.axelos.com/certifications/itil-service-management"],
   [
     "Microsoft Office 365",
     "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
   ],
+  ["Google Workspace", "https://workspace.google.com/"],
+  ["TCP/IP", "https://www.ibm.com/docs/en/zos/2.1.0?topic=protocol-tcpip"],
 ].map(([skill, docs]) => ({ skill, docs }));
 
 const AboutSection = () => {
