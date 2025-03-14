@@ -39,14 +39,14 @@ const projects: Project[] = [
     link: "https://feed-friends.vercel.app",
   },
   {
-    name: "Malware Network Forensic Investigation",
+    name: "Network Troubleshooting & Diagnostics",
     description:
       "Performed network forensic analysis on a pcap file to identify malicious traffic, download sources, and potential malware infections by analyzing network protocols, conversations, and packet data to uncover security incidents.",
     image: "/network.png",
     documentDownload: "/network_forensics.pdf",
   },
   {
-    name: "Metasploitable Tikiwiki",
+    name: "Security Vulnerability Assessment",
     description:
       "Conducted a SQL injection attack on a purposefully vulnerable website, exploiting vulnerabilities to gain unauthorized access to sensitive employee information, including names, salaries, birth dates, SSNs, and passwords.",
     image: "/tikiwiki.png",
