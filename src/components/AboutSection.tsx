@@ -3,21 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const skills = [
-  ["HTML", "https://developer.mozilla.org/en-US/docs/Web/HTML"],
-  ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
-  ["Java", "https://docs.oracle.com/en/java/javase/17/"],
-  ["JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
-  ["TypeScript", "https://www.typescriptlang.org/docs/"],
-  ["React.js", "https://react.dev/"],
-  ["Next.js", "https://nextjs.org"],
-  ["Tailwind CSS", "https://tailwindcss.com/"],
-  ["Vercel", "https://vercel.com/docs"],
-  ["GitHub", "https://docs.github.com/en"],
-  ["Git", "https://git-scm.com/doc"],
-  ["Jira", "https://confluence.atlassian.com/jira"],
-  ["Prisma", "https://www.prisma.io/"],
-  ["Express", "https://expressjs.com/"],
-  ["Visual Studio Code", "https://code.visualstudio.com/docs"],
   ["Windows Server 2022", "https://learn.microsoft.com/en-us/windows-server/"],
   [
     "Active Directory",
@@ -38,6 +23,21 @@ const skills = [
   ],
   ["Google Workspace", "https://workspace.google.com/"],
   ["TCP/IP", "https://www.ibm.com/docs/en/zos/2.1.0?topic=protocol-tcpip"],
+  ["Visual Studio Code", "https://code.visualstudio.com/docs"],
+  ["GitHub", "https://docs.github.com/en"],
+  ["Git", "https://git-scm.com/doc"],
+  ["Jira", "https://confluence.atlassian.com/jira"],
+  ["HTML", "https://developer.mozilla.org/en-US/docs/Web/HTML"],
+  ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
+  ["Java", "https://docs.oracle.com/en/java/javase/17/"],
+  ["JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
+  ["TypeScript", "https://www.typescriptlang.org/docs/"],
+  ["React.js", "https://react.dev/"],
+  ["Next.js", "https://nextjs.org"],
+  ["Tailwind CSS", "https://tailwindcss.com/"],
+  ["Vercel", "https://vercel.com/docs"],
+  ["Prisma", "https://www.prisma.io/"],
+  ["Express", "https://expressjs.com/"],
 ].map(([skill, docs]) => ({ skill, docs }));
 
 const AboutSection = () => {
