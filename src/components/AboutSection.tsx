@@ -14,7 +14,7 @@ const skills = [
   ["Wireshark", "https://www.wireshark.org/docs/"],
   ["WinHex", "https://www.x-ways.net/winhex/"],
   ["OSForensics", "https://www.osforensics.com/"],
-  ["Autopsy", "https://www.autopsy.com/documentation/"],
+  ["Autopsy", "https://www.autopsy.com/about/"],
   ["NIST", "https://www.nist.gov/"],
   ["ITIL", "https://www.axelos.com/certifications/itil-service-management"],
   [
@@ -22,7 +22,7 @@ const skills = [
     "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
   ],
   ["Google Workspace", "https://workspace.google.com/"],
-  ["TCP/IP", "https://www.ibm.com/docs/en/zos/2.1.0?topic=protocol-tcpip"],
+  ["TCP/IP", "https://www.fortinet.com/resources/cyberglossary/tcp-ip"],
   ["Visual Studio Code", "https://code.visualstudio.com/docs"],
   ["GitHub", "https://docs.github.com/en"],
   ["Git", "https://git-scm.com/doc"],
