@@ -17,6 +17,7 @@ const skills = [
   ["Autopsy", "https://www.autopsy.com/about/"],
   ["NIST", "https://www.nist.gov/"],
   ["ITIL", "https://www.axelos.com/certifications/itil-service-management"],
+  ["OWASP Top 10", "https://owasp.org/www-project-top-ten/"],
   [
     "Microsoft Office 365",
     "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
