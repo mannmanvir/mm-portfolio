@@ -19,6 +19,10 @@ const skills = [
   ["ITIL", "https://www.axelos.com/certifications/itil-service-management"],
   ["OWASP Top 10", "https://owasp.org/www-project-top-ten/"],
   [
+    "Cyber Kill Chain",
+    "https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html",
+  ],
+  [
     "Microsoft Office 365",
     "https://learn.microsoft.com/en-us/microsoft-365/?view=o365-worldwide",
   ],
