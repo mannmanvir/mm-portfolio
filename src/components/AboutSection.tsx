@@ -35,14 +35,8 @@ const skills = [
   ["HTML", "https://developer.mozilla.org/en-US/docs/Web/HTML"],
   ["CSS", "https://developer.mozilla.org/en-US/docs/Web/CSS"],
   ["Java", "https://docs.oracle.com/en/java/javase/17/"],
-  ["JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
-  ["TypeScript", "https://www.typescriptlang.org/docs/"],
-  ["React.js", "https://react.dev/"],
-  ["Next.js", "https://nextjs.org"],
   ["Tailwind CSS", "https://tailwindcss.com/"],
   ["Vercel", "https://vercel.com/docs"],
-  ["Prisma", "https://www.prisma.io/"],
-  ["Express", "https://expressjs.com/"],
 ].map(([skill, docs]) => ({ skill, docs }));
 
 const AboutSection = () => {
